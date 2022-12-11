@@ -1,0 +1,22 @@
+Requirements:
+
+    Python must be installed
+
+    For application to work you need to install psycopg2 to access pgadmin4 using 'pip install psycopg2'
+
+    postgresql must be running
+
+    Before running application you need to hardcode in some values in setup.py.
+    To find correct values:
+        Open pgadmin4
+        Right click PostgreSQL 14 or whichever server group you are using
+        Go to Properties
+        Go to Connection
+
+Queries:
+    Create tables using DDL.sql and insert sample values before running program
+
+Compiling:
+    Run setup.py
+
+
